@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A simple expense tracker web application to manage and visualize your expenses.">
+  <meta name="author" content="Jared Morillo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/tracker.css">
+  <title>Expense Tracker</title>
+</head>
+<body>
+
+<h2>Expense Tracker</h2>
+
+<div class="form">
+  <input type="text" id="description" placeholder="Description">
+  <input type="number" id="amount" placeholder="Amount">
+  <input type="date" id="date">
+  <select id="category">
+    <option>Food</option>
+    <option>Transport</option>
+    <option>Entertainment</option>
+    <option>Other</option>
+  </select>
+  <button onclick="addOrUpdateExpense()" id="submitBtn">Add</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Category</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="expenseList"></tbody>
+</table>
+
+<div class="total" id="total"></div>
+
+<script src="scripts/tracker.js"></script>
+
+</body>
+</html>
