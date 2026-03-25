@@ -40,7 +40,7 @@ No installation or server is required.
 
 ## 🎥 Video Demonstration
 
-(Place your video link here)
+Module 2 Demostration: [https://youtu.be/JuEWkKawqvM]
 
 ---
 
