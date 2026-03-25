@@ -62,6 +62,16 @@ Through this project, I learned how to:
 
 ---
 
+## 🌐 Useful Websites
+
+* [W3 Schools](https://www.w3schools.com/sql/)
+* [MDN](https://developer.mozilla.org/en-US/)
+* [CSS Tricks](https://css-tricks.com/)
+* [Stack Overflow](https://stackoverflow.com/questions)
+* [Chart.js](https://www.chartjs.org/)
+
+---
+
 ## 📌 Future Improvements
 
 * Add filtering by category
